@@ -1,0 +1,17 @@
+INSERT INTO programs (program_name, description)
+VALUES
+('Computer Training', 'Basic and advanced computer skills'),
+('English Training', 'English language and communication skills'),
+('Drama and Comedy', 'Drama, acting and comedy development'),
+('Modeling', 'Modeling and confidence development'),
+('Music and Dance', 'Music, singing and modern dance');
+
+INSERT INTO students (first_name, last_name, age, gender, phone)
+VALUES
+('John', 'Moses', 16, 'Male', '0712345678'),
+('Mary', 'Amina', 15, 'Female', '0723456789');
+
+INSERT INTO trainers (first_name, last_name, specialization)
+VALUES
+('David', 'Peter', 'Computer Training'),
+('Sarah', 'Grace', 'Drama and Performing Arts');
